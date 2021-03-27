@@ -1,0 +1,20 @@
+body{
+  outline:0px;
+  margin:0px;
+  padding:0px;
+}
+
+h1{
+background-color: powderblue ;
+}
+
+header {
+  display: flex;
+  flex-direction:row;
+  background-color: rgb(78, 78, 78);
+  color:white;
+}
+
+.button {
+  padding: 15px;
+}
