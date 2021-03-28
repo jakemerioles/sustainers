@@ -2,6 +2,7 @@
 <html>
 
   <head>
+    <script defer src="script.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Sustainability</title>
@@ -14,6 +15,8 @@
 
 
   <body>
+
+    <!-- navbar coming soon -->
     <!-- ctrl+/ to make a comment-->
     <header>
 
@@ -55,63 +58,37 @@
 
     </header>
 
-    <div class="hero">
+    <div class="hero" style="background-image:url(https://i.pinimg.com/originals/2c/f0/cc/2cf0cce180d665e275d8fe5b05e61dd9.jpg)">
       <h1> Being Eco-Friendly in the Midst of the Covid-19 Pandemic</h1>
       <p class="sub"> By TuffyHacks Beginner Team "The Sustainers"</p>
     </div>
 
-    <hr>
-
+    <hr/>
+    
     <div class="main">
-      <i class="fab fa-pagelines"></i>
-      <p>
-        Quarantine has made thinking about the environment somewhat difficult to think positively about helping our Earth.
-      </p>
-      <h2>
-        What can we do to help our Earth even though we are stuck at home?
-      </h2>
-      <i class="fab fa-pagelines"></i>
+      <i class="fas fa-arrow-down"></i>
+      <h2>Click the buttons! Don't throw trash or bottles in the ocean >:O
+        <i style="padding:0px;"><p style="font-size:20px;"> (May not work on mobile) </p></i>
+        </h2>
+      
+      <i class="fas fa-arrow-down"></i>
     </div>
-
-    <hr>
-
-    <div class="main">
-      <i class="fas fa-search"></i>
-      <h2>
-        We researched about some solutions to SUSTAIN OUR PLANET.
-      </h2>
-
-      <a href="research.html">
-        <div class="main-button">
-          Take a Look
+    <div class="container">
+      <div class="game_background" style="background-image:url(https://i.pinimg.com/originals/4e/45/dc/4e45dc9062cb0a987a65de512c50c8f6.jpg)">
+        <div class="bins">
+          <button type ="button" onclick="updateScore()"><img style="height: 100px; width: 100px;" src="https://www.pinclipart.com/picdir/middle/559-5599326_trash-can-cartoon-png-clipart.png"></button>
+          <button type ="button" onclick="updateScore()"><img style="width: 75px;" src="https://cdn.pixabay.com/photo/2014/04/03/10/38/recycle-310938_960_720.png"></button>
+          <button type ="button" onclick="lose()"><img style="width:150px;" src="https://cdn.pixabay.com/photo/2015/07/27/19/47/turtle-863336_1280.jpg"></button>
         </div>
-      </a>
-      <i class="fas fa-search"></i>
-    </div>
-
-    <hr>
-
-
-    <div class="main">
-      <i class="fas fa-gamepad"></i>
-      <h2>
-        In addition, we also coded a simple GAME to promote sustenance of our planet.
-      </h2>
-
-      <a href="game.html">
-        <div class="main-button">
-          Play Now
+        <div class="score">
+          <h3>Score:</h1> <h3 id="demo"> 0</h3>
         </div>
-      </a>
-      <i class="fas fa-gamepad"></i>
+      </div>
     </div>
-
-    <a href="https://docs.google.com/document/d/1Bi3AMgXRzMwMFtpAztZvpp0JoXFrZMo_nvEmoXCWDsI/edit?usp=sharing" target="_blank"> Works Cited </a>
-
+    
     <footer>
       Copyright 2021 | The Sustainers
     </footer>
-
   </body>
   </div>
 </html>
